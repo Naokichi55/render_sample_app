@@ -1,0 +1,22 @@
+databases:
+  - name: render_sample_app_db
+    databaseName: render_sample_app_production
+    region: singapore
+    plan: free
+
+services:
+  - type: web
+    name: render_sample_app_web
+    env: ruby
+    region: singapore
+    plan: free
+    branch: main
+    buildCommand: './bin/render-build.sh'
+    startCommand: 'bundle exec puma -C config/puma/.rb'
+    enVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: render_sample_app_db
+          propery: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
