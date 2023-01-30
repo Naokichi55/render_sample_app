@@ -18,5 +18,5 @@ services:
         fromDatabase:
           name: render_sample_app_db
           property: connectionString
-      - key: 345
+      - key: 123
         sync: false
