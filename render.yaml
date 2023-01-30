@@ -18,5 +18,5 @@ services:
         fromDatabase:
           name: render_sample_app_db
           property: connectionString
-      - key: U47pW0UB30P+5qvVQx4jZm6LV+8/84FznVR6qSiuCoNPI2/srXlFbEpI80ykQl4T6aiM9/ZnpfG4td8D4vI1QnIEx2tka/YQh1Lt5F6GXh3kzLDaj/29FKTqefxTT5HbxSWzQR+HbW9u/V2GFu7AwnAqesGTanLpR3YcLOoUXrIIm4073YIeTvOMR9jYQeNCzTBvYWIhUkY1GH6FZgiJwPQSlYH6/eqXMV8IcB7IVSKjprps0alqo7CiAN+NMoj9F6g/S3ruCmhT+ffQpU2jMfChVpZsLXnTuc3Entqj+3Ijh2noKvXd+rpQVuxui2kj1ztiUcI36shfNg1peRTNCSM+8OKwRwndpOhY9DkKh4RXagJofrcTJUDqCB9qZDqw7clG8zrTL0UPBJ120ymjN2NekHKatZ5wmuXT--rifkfPwjE9mXmf1D--d03Lh72Dq3WoYNWNNzukPg==
+      - key: 345
         sync: false
